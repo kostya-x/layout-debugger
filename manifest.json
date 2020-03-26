@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "CSS Layout Debugger",
+	"description": "This is not a very difficult extension for Google Chrome, which will mark all the blocks on your page, and you can identify problem areas by the appearance of the blocks.",
+	"version": "1.0.0",
+	"author": "Konstantin Mikhailenko",
+	"icons": {"128": "icon_128.png"},
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab"]
+}
